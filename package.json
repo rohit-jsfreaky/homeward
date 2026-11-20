@@ -5,7 +5,8 @@
   "scripts": {
     "appeal": "node scripts/appeal.mjs",
     "check": "hyper-elements check templates/",
-    "preview:email": "hyper-elements preview out/appeal/email.html"
+    "preview:email": "hyper-elements preview out/appeal/email.html",
+    "build": "node scripts/appeal.mjs && cp out/appeal/page.html out/appeal/index.html"
   },
   "keywords": [
     "hyper-elements",

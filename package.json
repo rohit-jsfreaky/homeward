@@ -1,0 +1,43 @@
+{
+  "name": "homeward",
+  "version": "1.0.0",
+  "description": "Homeward: a lost-pet appeal kit built with Hyper Elements. One pet.json -> a poster PDF, a social card, an email and an updates page.",
+  "scripts": {
+    "appeal": "node scripts/appeal.mjs",
+    "check": "hyper-elements check templates/",
+    "preview:email": "hyper-elements preview out/appeal/email.html"
+  },
+  "keywords": [
+    "hyper-elements",
+    "lost-pet",
+    "poster",
+    "template",
+    "pdf",
+    "email"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@hyper-elements/email-clients": "^0.5.0",
+    "@hyper-elements/lint": "^0.1.8",
+    "@hyper-elements/react": "^0.5.0",
+    "@react-pdf/renderer": "^4.9.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "qrcode-generator": "^2.0.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "satori": "^0.33.5"
+  },
+  "devDependencies": {
+    "@hyper-elements/cli": "^0.3.0",
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  },
+  "type": "module",
+  "private": true,
+  "hyperElements": {
+    "templates": [
+      "templates/**"
+    ]
+  }
+}

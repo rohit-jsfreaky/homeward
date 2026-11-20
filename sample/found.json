@@ -1,0 +1,33 @@
+{
+  "photo": "photo.jpg",
+  "status": "found",
+  "kind": "dog",
+  "name": "Biscuit",
+  "description": "Beagle, black, tan and white, small, patterned harness",
+  "markings": "White tip on her tail, black saddle across her back",
+  "approach": "shy",
+  "lastSeenArea": "Elm Road, by Station Lane",
+  "town": "Ashby Park",
+  "lastSeenDate": "2026-11-15",
+  "lastSeenTime": "about 7 pm",
+  "phone": "07700 900461",
+  "reward": "£200 reward",
+  "updatesUrl": "https://example.org/biscuit",
+  "locale": "en-GB",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Found in a shed on Hollin Close after a neighbour heard her. Home, fed and asleep."
+    },
+    {
+      "date": "2026-11-16",
+      "note": "Seen by the allotments behind Station Lane, early morning. Heading towards the railway path."
+    },
+    {
+      "date": "2026-11-15",
+      "note": "Slipped her collar during the evening walk near the Elm Road playground."
+    }
+  ],
+  "foundDate": "2026-11-18",
+  "foundNote": "Biscuit was found on Wednesday morning, two streets away in a neighbour's shed: hungry, muddy and fine. Thank you to everyone who looked, called and shared."
+}
